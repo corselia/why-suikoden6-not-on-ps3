@@ -1,7 +1,7 @@
 # What's this?
 `幻想水滸伝` is Japanese RPG, `Suikoden` in English. this article mentions why Suikoden 6 wasn't, isn't and won't be released on PlayStation 3. and indicate the road to next `Suikoden`!
 
-This article is distributed at [`Comic Market 89`](http://www.comiket.co.jp/info-a/C89/C89info.html).
+This article was distributed at [`Comic Market 89`](http://www.comiket.co.jp/info-a/C89/C89info.html).
 
 # Files
 this repository has 4 files (include directory)
