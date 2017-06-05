@@ -12,16 +12,16 @@ this repository has 4 files (include directory)
 
 # Contents of Files
 
-### `「幻想水滸伝VI」がPlayStation 3で発売する予定を経て発売不可能な状態へ至るまでの遷移.pdf`
+### 「幻想水滸伝VI」がPlayStation 3で発売する予定を経て発売不可能な状態へ至るまでの遷移.pdf
 - whole article file
 - `pdf` file
 - **recommended file**
 
-### `「幻想水滸伝VI」がPlayStation 3で発売する予定を経て発売不可能な状態へ至るまでの遷移.indd`
+### 「幻想水滸伝VI」がPlayStation 3で発売する予定を経て発売不可能な状態へ至るまでの遷移.indd
 - original file
 - `indd` file
 
-### `「幻想水滸伝VI」がPlayStation 3で発売する予定を経て発売不可能な状態へ至るまでの遷移 png version` (directory)
+### 「幻想水滸伝VI」がPlayStation 3で発売する予定を経て発売不可能な状態へ至るまでの遷移 png version (directory)
 - each page image file in this directory
 - `png` format
 - files size is `808 KB`
