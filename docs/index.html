@@ -1,0 +1,60 @@
+<!DOCTYPE>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <title>「幻想水滸伝VI」がPlayStation 3で発売する予定を経て発売不可能な状態へ至るまでの遷移</title>
+  <link rel="stylesheet" type="text/css" href="slick/slick.css">
+  <link rel="stylesheet" type="text/css" href="slick/slick-theme.css">
+  <link rel="stylesheet" type="text/css" href="assets/style.css">
+</head>
+<body>
+  <div id="my-slide-images">
+    <img src="images/slide_images/slide_01.png">
+    <img src="images/slide_images/slide_02.png">
+    <img src="images/slide_images/slide_03.png">
+    <img src="images/slide_images/slide_04.png">
+    <img src="images/slide_images/slide_05.png">
+    <img src="images/slide_images/slide_06.png">
+    <img src="images/slide_images/slide_07.png">
+    <img src="images/slide_images/slide_08.png">
+    <img src="images/slide_images/slide_09.png">
+  </div>
+
+  <div style="padding: 5px 0px 5px 0px;"></div>
+
+  <div id="my-slide-images-thumbnail">
+    <a href="#" style="padding: 0px 2px 0px 0px;"><img src="images/slide_images_thumbnail/thumbnail_slide_01.png"></a>
+    <a href="#" style="padding: 0px 2px 0px 0px;"><img src="images/slide_images_thumbnail/thumbnail_slide_02.png"></a>
+    <a href="#" style="padding: 0px 2px 0px 0px;"><img src="images/slide_images_thumbnail/thumbnail_slide_03.png"></a>
+    <a href="#" style="padding: 0px 2px 0px 0px;"><img src="images/slide_images_thumbnail/thumbnail_slide_04.png"></a>
+    <a href="#" style="padding: 0px 2px 0px 0px;"><img src="images/slide_images_thumbnail/thumbnail_slide_05.png"></a>
+    <a href="#" style="padding: 0px 2px 0px 0px;"><img src="images/slide_images_thumbnail/thumbnail_slide_06.png"></a>
+    <a href="#" style="padding: 0px 2px 0px 0px;"><img src="images/slide_images_thumbnail/thumbnail_slide_07.png"></a>
+    <a href="#" style="padding: 0px 2px 0px 0px;"><img src="images/slide_images_thumbnail/thumbnail_slide_08.png"></a>
+    <a href="#" style="padding: 0px 2px 0px 0px;"><img src="images/slide_images_thumbnail/thumbnail_slide_09.png"></a>
+  </div>
+
+  <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+  <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-3.0.0.min.js"></script>
+  <script type="text/javascript" src="slick/slick.min.js"></script>
+
+  <script>
+  $(document).ready(function(){
+    $('#my-slide-images').slick({
+      infinite: false,
+      slidesToShow: 1,
+      slidesToScroll: 1,
+      fade: true,
+      asNavFor: '#my-slide-images-thumbnail'
+    });
+    $('#my-slide-images-thumbnail').slick({
+      infinite: false,
+      slidesToShow: 4,
+      slidesToScroll: 4,
+      focusOnSelect: true,
+      asNavFor: '#my-slide-images'
+    });
+  });
+  </script>
+</body>
+</html>

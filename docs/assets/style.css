@@ -1,0 +1,119 @@
+.slick-prev:before,
+.slick-next:before
+{
+  font-family: 'slick';
+  font-size: 125px; /* スライド矢印の大きさ（同じ値を他の場所でも指定する必要がある） */
+  line-height: 1;
+
+  opacity: .35;
+  color: #98fb98;
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.slick-prev,
+.slick-next
+{
+  font-size: 0;
+  line-height: 0;
+
+  position: absolute;
+  top: 50%;
+
+  display: block;
+
+  width: 125px; /* スライド矢印の大きさ（同じ値を他の場所でも指定する必要がある） */
+  height: 125px; /* スライド矢印の大きさ（同じ値を他の場所でも指定する必要がある） */
+  padding: 0px;
+  -webkit-transform: translate(0, -50%);
+  -ms-transform: translate(0, -50%);
+  transform: translate(0, -50%);
+
+  cursor: pointer;
+
+  color: transparent;
+  border: none;
+  outline: none;
+  background: transparent;
+}
+.slick-next {
+  right: 50px;
+  z-index: 100; /* 指定しないと矢印が裏側に隠れてしまう */
+}
+.slick-prev {
+  left: 30px;
+  z-index: 100; /* 指定しないと矢印が裏側に隠れてしまう */
+}
+
+#my-slide-images-thumbnail .slick-prev:before,
+#my-slide-images-thumbnail .slick-next:before
+{
+  font-family: 'slick';
+  font-size: 75px; /* スライド矢印の大きさ（同じ値を他の場所でも指定する必要がある） */
+  line-height: 0;
+
+  opacity: .60;
+  color: #87cefa;
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+#my-slide-images-thumbnail .slick-prev,
+#my-slide-images-thumbnail .slick-next
+{
+  font-size: 0;
+  line-height: 0;
+
+  position: absolute;
+  top: 45%; /* 矢印の位置を調整する場所 */
+
+  display: block;
+
+  width: 75px; /* スライド矢印の大きさ（同じ値を他の場所でも指定する必要がある） */
+  height: 75px; /* スライド矢印の大きさ（同じ値を他の場所でも指定する必要がある） */
+  padding: 0px;
+  -webkit-transform: translate(0, -50%);
+  -ms-transform: translate(0, -50%);
+  transform: translate(0, -50%);
+
+  cursor: pointer;
+
+  color: transparent;
+  border: none;
+  outline: none;
+  background: transparent;
+}
+#my-slide-images-thumbnail .slick-next {
+  right: 10px;
+  z-index: 100; /* 指定しないと矢印が裏側に隠れてしまう */
+}
+#my-slide-images-thumbnail .slick-prev {
+  left: 10px;
+  z-index: 100; /* 指定しないと矢印が裏側に隠れてしまう */
+}
+#my-slide-images-thumbnail .slick-prev:hover:before,
+#my-slide-images-thumbnail .slick-prev:focus:before,
+#my-slide-images-thumbnail .slick-next:hover:before,
+#my-slide-images-thumbnail .slick-next:focus:before
+{
+    opacity: 1;
+}
+
+/* アスペクト比を維持したままレスポンシブ対応にする */
+#my-slide-images img {
+  width: 100%;
+  height: auto;
+}
+#my-slide-images-thumbnail img {
+  width: 100%;
+  height: auto;
+}
+
+/* 明示的に指定しないと余白が生じてしまう */
+#my-slide-images-thumbnail .slick-slide {
+  height: 225px;
+}
+#my-slide-images-thumbnail .slick-slide img {
+  height: 170px;
+  width: 300px; 
+}
